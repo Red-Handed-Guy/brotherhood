@@ -1,0 +1,9 @@
+.form__logo-input-wrapper {
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid #d6dade;
+  position: relative;
+}

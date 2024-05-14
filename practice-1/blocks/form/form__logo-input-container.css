@@ -1,0 +1,9 @@
+.form__logo-input-container {
+  display: flex;
+  width: 163px;
+  min-width: 163px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}

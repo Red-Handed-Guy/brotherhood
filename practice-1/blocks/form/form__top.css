@@ -1,0 +1,4 @@
+.form__top {
+  display: flex;
+  column-gap: 26px;
+}

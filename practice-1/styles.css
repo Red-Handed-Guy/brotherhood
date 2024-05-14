@@ -1,0 +1,23 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts/Monsterrat.css');
+@import url('./vendor/fonts/PTSans.css');
+@import url('./global.css');
+
+@import url('./blocks/popup/popup.css');
+@import url('./blocks/popup/popup__title.css');
+@import url('./blocks/popup/popup__form.css');
+
+@import url('./blocks/form/form.css');
+@import url('./blocks/form/form__top.css');
+@import url('./blocks/form/form__list.css');
+@import url('./blocks/form/form__item.css');
+@import url('./blocks/form/form__input.css');
+@import url('./blocks/form/form__logo-input-label.css');
+@import url('./blocks/form/form__logo-input-container.css');
+@import url('./blocks/form/form__logo-input-wrapper.css');
+@import url('./blocks/form/form__logo-input-text.css');
+@import url('./blocks/form/form__logo-img.css');
+
+@import url('./blocks/input/input.css');
+@import url('./blocks/input/input__hint.css');
+@import url('./blocks/input/input__input.css');
