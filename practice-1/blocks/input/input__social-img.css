@@ -1,0 +1,13 @@
+.input__social-img {
+  min-width: 18px;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.input__social-img_type_facebook {
+  min-width: 22px;
+  width: 22px;
+  height: 22px;
+}

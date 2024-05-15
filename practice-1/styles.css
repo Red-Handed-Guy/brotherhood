@@ -8,6 +8,7 @@
 @import url('./blocks/popup/popup__form.css');
 
 @import url('./blocks/form/form.css');
+@import url('./blocks/form/form__wrapper.css');
 @import url('./blocks/form/form__top.css');
 @import url('./blocks/form/form__list.css');
 @import url('./blocks/form/form__item.css');
@@ -17,7 +18,12 @@
 @import url('./blocks/form/form__logo-input-wrapper.css');
 @import url('./blocks/form/form__logo-input-text.css');
 @import url('./blocks/form/form__logo-img.css');
+@import url('./blocks/form/form__logo-del-button.css');
+@import url('./blocks/form/form__submit-button.css');
+@import url('./blocks/form/form__close-button.css');
 
 @import url('./blocks/input/input.css');
 @import url('./blocks/input/input__hint.css');
 @import url('./blocks/input/input__input.css');
+@import url('./blocks/input/input__option.css');
+@import url('./blocks/input/input__social-img.css');

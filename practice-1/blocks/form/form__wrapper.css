@@ -1,0 +1,5 @@
+.form__wrapper {
+  height: calc(100% - 98px);
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}

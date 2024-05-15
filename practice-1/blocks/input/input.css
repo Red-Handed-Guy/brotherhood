@@ -10,6 +10,31 @@
   cursor: text;
 }
 
+.input_type_select {
+  cursor: unset;
+}
+
 .input:has(input:focus) {
   border: 1px solid var(--font-black);
+}
+
+.input:has(select:focus) {
+  border: 1px solid var(--font-black);
+}
+
+.input_type_social {
+  flex-direction: row;
+  align-items: center;
+}
+
+.input_type_error {
+  border: 1px solid red;
+}
+
+.input_type_error:has(input:focus) {
+  border: 1px solid rgb(156, 0, 0);
+}
+
+.input:has(select:focus) {
+  border: 1px solid rgb(156, 0, 0);
 }

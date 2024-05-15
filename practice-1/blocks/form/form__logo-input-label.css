@@ -1,4 +1,5 @@
 .form__logo-input-label {
+  border-radius: 50%;
   position: relative;
   z-index: 3;
   display: flex;
@@ -13,6 +14,12 @@
   transition: all 0.3s;
   gap: 7px;
   opacity: 0;
+  box-sizing: border-box;
+}
+
+.form__logo-input-label_visible {
+  visibility: visible;
+  opacity: 1;
 }
 
 .form__logo-input-wrapper:hover .form__logo-input-label {

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="12" height="8" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clip0_1_310">
+   <rect fill="white" height="24" id="svg_1" transform="translate(0 -1)" width="24"/>
+  </clipPath>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g clip-path="url(#clip0_1_310)" id="Group">
+   <path clip-rule="evenodd" d="m6.03,5.44l-4.56,-4.56c-0.25,-0.24 -0.64,-0.24 -0.89,0c-0.24,0.25 -0.24,0.64 0,0.89l5.45,5.44l5.44,-5.44c0.24,-0.25 0.24,-0.64 0,-0.89c-0.25,-0.24 -0.64,-0.24 -0.89,0l-4.55,4.56z" fill="#6A6E72" fill-rule="evenodd" id="icon-color"/>
+  </g>
+ </g>
+</svg>

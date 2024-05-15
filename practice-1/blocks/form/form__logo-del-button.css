@@ -1,0 +1,42 @@
+.form__logo-del-button {
+  position: absolute;
+  z-index: 4;
+  cursor: pointer;
+  height: 36px;
+  width: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 9px;
+  right: 2px;
+  transition: transform 0.3s;
+  visibility: hidden;
+}
+
+.form__logo-del-button_visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (width > 760px) {
+  .form__logo-del-button:hover {
+    transform: scale(1.1);
+  }
+}
+
+.form__logo-del-button > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background-color: #6a6e72;
+}
+
+.form__logo-del-button > div:first-child {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.form__logo-del-button > div:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
