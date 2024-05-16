@@ -10,6 +10,5 @@ export class ButtonEvent {
 
   listen() {
     this._setEventListeners()
-    console.log('123')
   }
 }

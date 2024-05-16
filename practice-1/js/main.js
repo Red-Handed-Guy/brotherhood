@@ -32,7 +32,6 @@ class FormPopupController {
   _onSubmit = e => {
     e.preventDefault()
     const inputList = {}
-    console.log(this._formInputs)
     ;[...this._formInputs].forEach(input => {
       const inputName = input.getAttribute('name')
       inputList[inputName] = input.value

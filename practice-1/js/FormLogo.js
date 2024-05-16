@@ -13,8 +13,6 @@ export class FormLogo {
   _changeLogo = e => {
     const image = e.target.files[0]
     const src = URL.createObjectURL(image)
-    console.log(src)
-    console.log(this._logoImg)
     this._logoImg.src = src
     this._logoImg.classList.add('form__logo-img_visible')
     this._delButton.classList.add('form__logo-del-button_visible')
