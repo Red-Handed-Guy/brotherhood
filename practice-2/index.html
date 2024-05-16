@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PopupForm</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <table border="1" class="table">
+      <thead>
+        <tr>
+          <th class="table__head table__head_type_id" data-sort="none">id</th>
+          <th class="table__head table__head_type_user-id" data-sort="none">
+            userId
+          </th>
+          <th class="table__head table__head_type_title" data-sort="none">
+            title
+          </th>
+          <th class="table__head table__head_type_body" data-sort="none">
+            body
+          </th>
+        </tr>
+      </thead>
+      <tbody class="table__body">
+      </tbody>
+    </table>
+
+    <template class="table__row-template">
+      <tr class="table__row">
+        <td class="table__data table__data_type_id"></td>
+        <td class="table__data table__data_type_user-id"></td>
+        <td class="table__data table__data_type_title"></td>
+        <td class="table__data table__data_type_body"></td>
+      </tr>
+    </template>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
