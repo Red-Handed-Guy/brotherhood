@@ -1,5 +1,15 @@
 .form__top {
+  width: 100%;
   display: flex;
   column-gap: 26px;
   margin-bottom: 32px;
+}
+
+@media screen and (max-width: 550px) {
+  .form__top {
+    flex-direction: column-reverse;
+    row-gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
 }

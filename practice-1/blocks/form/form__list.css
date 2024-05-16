@@ -3,4 +3,11 @@
   flex-direction: column;
   row-gap: 32px;
   flex-grow: 1;
+  width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .form__list {
+    row-gap: 16px;
+  }
 }

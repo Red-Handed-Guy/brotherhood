@@ -21,7 +21,7 @@ export class FormLogo {
     this._logoLabel.classList.remove('form__logo-input-label_visible')
   }
 
-  _deleteLogo = () => {
+  deleteLogo = () => {
     this._delButton.classList.remove('form__logo-del-button_visible')
     this._logoImg.classList.remove('form__logo-img_visible')
     this._logoLabel.classList.add('form__logo-input-label_visible')
@@ -33,7 +33,7 @@ export class FormLogo {
 
   _setLogoInputListeners() {
     this._logoInput.addEventListener('change', this._changeLogo)
-    this._delButton.addEventListener('click', this._deleteLogo)
+    this._delButton.addEventListener('click', this.deleteLogo)
   }
 
   listenInput() {

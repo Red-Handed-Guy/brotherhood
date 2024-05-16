@@ -1,0 +1,20 @@
+.button {
+  cursor: pointer;
+}
+
+.button_type_pink {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #e5266e;
+  border-radius: 4px;
+  line-height: 48px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.button_disabled {
+  background-color: #a0a0a0;
+  cursor: unset;
+}
