@@ -1,6 +1,6 @@
 export const configValidation = {
   formSelector: '.popup__form',
-  inputSelector: '.input__input',
+  inputSelector: '.input-input',
   submitButtonSelector: '.form__submit-button',
   inactiveButtonClass: 'button_disabled',
   labelClass: 'form__input',

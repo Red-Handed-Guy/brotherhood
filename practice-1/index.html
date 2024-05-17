@@ -20,7 +20,7 @@
             <div class="form__top">
               <ul class="form__list">
                 <li class="form__item">
-                  <label class="form__input input">
+                  <label class="form__input input input_type_text">
                     <p class="input__hint">
                       <span>✱</span> Название организации
                     </p>
@@ -28,38 +28,40 @@
                       placeholder="Название организации"
                       required
                       name="orgName"
-                      class="input__input"
+                      class="input__input input-input"
                       type="text"
                     />
                   </label>
                 </li>
                 <li class="form__item">
-                  <label class="form__input input">
+                  <label class="form__input input input_type_text">
                     <p class="input__hint"><span>✱</span> Телефон</p>
                     <input
                       placeholder="+7 999 999-99-99"
                       required
-                      class="input__input"
+                      class="input__input input-input"
                       name="phone"
                       type="tel"
                     />
                   </label>
                 </li>
                 <li class="form__item">
-                  <label class="form__input input">
+                  <label class="form__input input input_type_text">
                     <p class="input__hint"><span>✱</span> E-mail</p>
                     <input
                       placeholder="example@ex.com"
                       name="email"
                       required
-                      class="input__input"
+                      class="input__input input-input"
                       type="email"
                     />
                   </label>
                 </li>
               </ul>
               <div class="form__logo-input-container">
-                <p class="input__hint"><span>✱</span> Логотип (jpeg, png)</p>
+                <p class="form__input-hint hint">
+                  <span>✱</span> Логотип (jpeg, png)
+                </p>
                 <div class="form__logo-input-wrapper">
                   <button class="form__logo-del-button" type="button">
                     <div></div>
@@ -67,7 +69,7 @@
                   </button>
                   <img class="form__logo-img" src="" alt="Лого" />
                   <label
-                    class="form__logo-input-label form__logo-input-label_visible"
+                    class="form__logo-input-label form__logo-input-label_visible input"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +87,7 @@
                     <input
                       name="logo"
                       required
-                      class="form__logo-input input__input"
+                      class="form__logo-input input-input"
                       style="display: none"
                       type="file"
                       name="logo"
@@ -99,14 +101,14 @@
               <li class="form__item">
                 <label
                   for="id_select"
-                  class="form__input input input_type_select"
+                  class="form__input input input_type_text input_type_select"
                 >
                   <p class="input__hint"><span>✱</span> Направление</p>
                   <select
                     name="direction"
                     required
                     id="id_select"
-                    class="input__input input__input_type_select"
+                    class="input__input input-input input__input_type_select"
                   >
                     <option class="input__option" value="" selected></option>
                     <option class="input__option" value="value1">
@@ -122,11 +124,13 @@
                 </label>
               </li>
               <li class="form__item">
-                <label class="form__input input input_type_social">
+                <label
+                  class="form__input input input_type_text input_type_social"
+                >
                   <input
                     placeholder="https://example.com"
                     name="global"
-                    class="input__input input__input_type_social"
+                    class="input__input input-input input__input_type_social"
                     type="text"
                   />
                   <img
@@ -137,11 +141,13 @@
                 </label>
               </li>
               <li class="form__item">
-                <label class="form__input input input_type_social">
+                <label
+                  class="form__input input input_type_text input_type_social"
+                >
                   <input
                     placeholder="https://example.com"
                     name="vk"
-                    class="input__input input__input_type_social"
+                    class="input__input input-input input__input_type_social"
                     type="text"
                   />
                   <img
@@ -152,11 +158,13 @@
                 </label>
               </li>
               <li class="form__item">
-                <label class="form__input input input_type_social">
+                <label
+                  class="form__input input input_type_text input_type_social"
+                >
                   <input
                     placeholder="https://example.com"
                     name="odnoklassniki"
-                    class="input__input input__input_type_social"
+                    class="input__input input-input input__input_type_social"
                     type="text"
                   />
                   <img
@@ -167,11 +175,13 @@
                 </label>
               </li>
               <li class="form__item">
-                <label class="form__input input input_type_social">
+                <label
+                  class="form__input input input_type_text input_type_social"
+                >
                   <input
                     placeholder="https://example.com"
                     name="facebook"
-                    class="input__input input__input_type_social"
+                    class="input__input input-input input__input_type_social"
                     type="text"
                   />
                   <img
@@ -182,11 +192,13 @@
                 </label>
               </li>
               <li class="form__item">
-                <label class="form__input input input_type_social">
+                <label
+                  class="form__input input input_type_text input_type_social"
+                >
                   <input
                     placeholder="https://example.com"
                     name="instagram"
-                    class="input__input input__input_type_social"
+                    class="input__input input-input input__input_type_social"
                     type="text"
                   />
                   <img
@@ -197,11 +209,13 @@
                 </label>
               </li>
               <li class="form__item">
-                <label class="form__input input input_type_social">
+                <label
+                  class="form__input input input_type_text input_type_social"
+                >
                   <input
                     placeholder="https://example.com"
                     name="youtube"
-                    class="input__input input__input_type_social"
+                    class="input__input input-input input__input_type_social"
                     type="text"
                   />
                   <img
@@ -212,12 +226,12 @@
                 </label>
               </li>
               <li class="form__item">
-                <label class="form__input input">
+                <label class="form__input input input_type_text">
                   <p class="input__hint">Руководитель</p>
                   <input
                     placeholder="Иванович Иван Иванов"
                     name="leader"
-                    class="input__input"
+                    class="input__input input-input"
                     type="text"
                   />
                 </label>

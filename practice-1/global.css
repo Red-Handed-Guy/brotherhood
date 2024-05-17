@@ -44,3 +44,15 @@ input:-webkit-autofill:focus {
 :root {
   --font-black: #0c1014;
 }
+
+.hint {
+  color: #6a6e72;
+  font-family: 'PT Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.hint span {
+  color: #d90000;
+}

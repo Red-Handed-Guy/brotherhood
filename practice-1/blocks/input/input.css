@@ -1,4 +1,4 @@
-.input {
+.input_type_text {
   width: 100%;
   height: 56px;
   display: flex;
@@ -14,11 +14,11 @@
   cursor: unset;
 }
 
-.input:has(input:focus) {
+.input_type_text:has(input:focus) {
   border: 1px solid var(--font-black);
 }
 
-.input:has(select:focus) {
+.input_type_text:has(select:focus) {
   border: 1px solid var(--font-black);
 }
 

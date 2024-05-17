@@ -26,7 +26,7 @@ class FormPopupController {
     this._popupSelector = popupSelector
     this._popup = document.querySelector(popupSelector)
     this._form = this._popup.querySelector('.popup__form')
-    this._formInputs = this._form.querySelectorAll('.input__input')
+    this._formInputs = this._form.querySelectorAll('.input-input')
   }
 
   _onSubmit = e => {

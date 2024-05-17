@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PopupForm</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="table-container">
+      <p class="table-container__hint">ищет по title и body</p>
+      <input type="text" class="table-input-fiter" />
+      <table border="1" class="table">
+        <thead>
+          <tr>
+            <th id="id" class="table__head table__head_type_id">id</th>
+            <th id="userId" class="table__head table__head_type_user-id">
+              userId
+            </th>
+            <th id="title" class="table__head table__head_type_title">title</th>
+            <th id="body" class="table__head table__head_type_body">body</th>
+          </tr>
+        </thead>
+        <tbody class="table__body"></tbody>
+      </table>
+
+      <template class="table__row-template">
+        <tr class="table__row">
+          <td class="table__data table__data_type_id"></td>
+          <td class="table__data table__data_type_user-id"></td>
+          <td class="table__data table__data_type_title"></td>
+          <td class="table__data table__data_type_body"></td>
+        </tr>
+      </template>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
